@@ -1,42 +1,63 @@
 body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100dvh;
-
+background-color: #09556a;
 }
 .box{
     background-color: blueviolet;
     width: 90%;
-    height: 200px;
+    height: 40px;
     display: flex;
-    flex-direction: column;
+    position: fixed;
     align-items: center;
     justify-content: center;
     border-radius: 12px;
     padding: 20px;
-    margin: 20px;
+    bottom: 10px;
+    
 }
 input{
-    width: 70%;
+    width: 60%;
     height: 35px;
     border-radius: 12px;
     margin: 20px;
 }
-button{
-    width: 50%;
-    height: 35px;
-    border-radius: 20px;
+.btn_env{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 30px;
 }
 .rps{
-   background-color: rgb(97, 52, 139);
-    width: 90%;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     border-radius: 12px; 
     font-size: 100%;
+    padding: 5px;
+    max-width: 100%;
+    align-self: flex-start;
+    word-wrap: break-word;
+    color: aliceblue;
+}
+.prs{
+   background-color: rgb(20, 50, 149);
+    border-radius: 12px; 
+    font-size: 100%;
+    padding: 10px 15px;
+    max-width: 70%;
+    align-self: flex-end;
+    word-wrap: break-word;
+    color: white;
+}
+.box_msg{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    gap: 8px;
+    padding: 20px;
+    height: 80%;
+    margin: 20px auto;
+    width: 100%;
+}
+button:disabled{
+    background-color: #888;
+    cursor: await;
+    opacity: 0.7;
 }
