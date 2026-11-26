@@ -1,6 +1,7 @@
 import {aBtn, Btn, dBtn} from "./Btn.js";
 import {reponse} from "./reponse.js";
 import { REGLE } from "./type.js";
+import {aff} from "./devcom/Af.js";
 
 function trs() {
     const af=document.getElementById('box_msg');
@@ -26,8 +27,8 @@ setTimeout(()=>{
     aBtn("btn");
      const div_ai=document.createElement("div");
     div_ai.classList.add("rps");
-    div_ai.innerText=resultat.reponse;
-    af.appendChild(div_ai);
+     af.appendChild(div_ai);
+  aff(resultat.reponse,div_ai);
 },800);
 
    

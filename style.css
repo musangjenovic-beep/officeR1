@@ -37,7 +37,7 @@ input{
 }
 .prs{
    background-color: rgb(20, 50, 149);
-    border-radius: 12px; 
+    border-radius: 20px; 
     font-size: 100%;
     padding: 10px 15px;
     max-width: 70%;
@@ -51,7 +51,6 @@ input{
     flex-direction: column;
     overflow-y: auto;
     gap: 8px;
-    padding: 20px;
     height: 80%;
     margin: 20px auto;
     width: 100%;
