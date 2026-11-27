@@ -1,4 +1,4 @@
-import { tokeniser } from "./tokeniser.js";
+import { tokeniser } from "./devcom/traitement/tokeniser.js";
 
 export function normaliserMot(mot) {
     if (typeof mot !== "string") {

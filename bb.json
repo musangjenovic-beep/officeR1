@@ -1,0 +1,531 @@
+
+export const connaissances = [
+
+    // ==================================
+    // 1. GEOGRAPHIE (10)
+    // ==================================
+
+    {
+        nom: "RDC",
+        relation: "capitale",
+        objet: "Kinshasa",
+        categorie: "geographie"
+    },
+    {
+        nom: "RDC",
+        relation: "superficie",
+        objet: "2 345 409 km²",
+        categorie: "geographie"
+    },
+    {
+        nom: "RDC",
+        relation: "nombre_provinces",
+        objet: "26 provinces",
+        categorie: "geographie"
+    },
+    {
+        nom: "RDC",
+        relation: "fleuve_principal",
+        objet: "Le fleuve Congo",
+        categorie: "geographie"
+    },
+    {
+        nom: "RDC",
+        relation: "bassin_forestier",
+        objet: "Le bassin du Congo",
+        categorie: "geographie"
+    },
+    {
+        nom: "RDC",
+        relation: "point_culminant",
+        objet: "Le pic Marguerite, dans le massif du Ruwenzori, à environ 5 109 mètres",
+        categorie: "geographie"
+    },
+    {
+        nom: "RDC",
+        relation: "grands_lacs",
+        objet: "Les lacs Tanganyika, Kivu, Albert, Édouard et Mweru",
+        categorie: "geographie"
+    },
+    {
+        nom: "Kinshasa",
+        relation: "statut",
+        objet: "Ville-province et capitale de la RDC",
+        categorie: "geographie"
+    },
+    {
+        nom: "Lubumbashi",
+        relation: "chef_lieu",
+        objet: "Haut-Katanga",
+        categorie: "geographie"
+    },
+    {
+        nom: "Goma",
+        relation: "chef_lieu",
+        objet: "Nord-Kivu",
+        categorie: "geographie"
+    },
+
+
+    // ==================================
+    // 2. POLITIQUE (10)
+    // ==================================
+
+    {
+        nom: "RDC",
+        relation: "forme_etat",
+        objet: "République",
+        categorie: "politique"
+    },
+    {
+        nom: "RDC",
+        relation: "constitution",
+        objet: "Constitution du 18 février 2006",
+        categorie: "politique"
+    },
+    {
+        nom: "RDC",
+        relation: "pouvoir_legislatif",
+        objet: "Le Parlement",
+        categorie: "politique"
+    },
+    {
+        nom: "Parlement de la RDC",
+        relation: "composition",
+        objet: "L'Assemblée nationale et le Sénat",
+        categorie: "politique"
+    },
+    {
+        nom: "RDC",
+        relation: "chef_etat",
+        objet: "Le président de la République",
+        categorie: "politique"
+    },
+    {
+        nom: "RDC",
+        relation: "chef_gouvernement",
+        objet: "Le Premier ministre",
+        categorie: "politique"
+    },
+    {
+        nom: "RDC",
+        relation: "juridiction_constitutionnelle",
+        objet: "La Cour constitutionnelle",
+        categorie: "politique"
+    },
+    {
+        nom: "RDC",
+        relation: "organisation_territoriale",
+        objet: "26 provinces",
+        categorie: "politique"
+    },
+    {
+        nom: "Provinces de la RDC",
+        relation: "administration",
+        objet: "Elles sont administrées par des gouverneurs",
+        categorie: "politique"
+    },
+    {
+        nom: "RDC",
+        relation: "election_presidentielle",
+        objet: "Le président est élu au suffrage universel direct",
+        categorie: "politique"
+    },
+
+
+    // ==================================
+    // 3. HISTOIRE (10)
+    // ==================================
+
+    {
+        nom: "RDC",
+        relation: "independance",
+        objet: "30 juin 1960",
+        categorie: "histoire"
+    },
+    {
+        nom: "RDC",
+        relation: "ancienne_puissance_coloniale",
+        objet: "La Belgique",
+        categorie: "histoire"
+    },
+    {
+        nom: "RDC",
+        relation: "ancien_nom_colonial",
+        objet: "Congo belge",
+        categorie: "histoire"
+    },
+    {
+        nom: "Patrice Lumumba",
+        relation: "role_historique",
+        objet: "Premier Premier ministre du Congo indépendant",
+        categorie: "histoire"
+    },
+    {
+        nom: "Katanga",
+        relation: "secession",
+        objet: "11 juillet 1960",
+        categorie: "histoire"
+    },
+    {
+        nom: "Crise congolaise",
+        relation: "periode",
+        objet: "1960 à 1965",
+        categorie: "histoire"
+    },
+    {
+        nom: "Mobutu Sese Seko",
+        relation: "prise_pouvoir",
+        objet: "24 novembre 1965",
+        categorie: "histoire"
+    },
+    {
+        nom: "RDC",
+        relation: "nom_Zaire",
+        objet: "Le pays a porté le nom de Zaïre de 1971 à 1997",
+        categorie: "histoire"
+    },
+    {
+        nom: "Première guerre du Congo",
+        relation: "periode",
+        objet: "1996 à 1997",
+        categorie: "histoire"
+    },
+    {
+        nom: "Deuxième guerre du Congo",
+        relation: "debut",
+        objet: "1998",
+        categorie: "histoire"
+    },
+
+
+    // ==================================
+    // 4. PERSONNALITES (10)
+    // ==================================
+
+    {
+        nom: "Patrice Lumumba",
+        relation: "date_naissance",
+        objet: "2 juillet 1925",
+        categorie: "personnalites"
+    },
+    {
+        nom: "Patrice Lumumba",
+        relation: "lieu_naissance",
+        objet: "Onalua, dans l'actuelle province du Sankuru",
+        categorie: "personnalites"
+    },
+    {
+        nom: "Patrice Lumumba",
+        relation: "profession",
+        objet: "Homme politique",
+        categorie: "personnalites"
+    },
+    {
+        nom: "Patrice Lumumba",
+        relation: "fonction",
+        objet: "Premier Premier ministre du Congo indépendant",
+        categorie: "personnalites"
+    },
+    {
+        nom: "Patrice Lumumba",
+        relation: "date_mort",
+        objet: "17 janvier 1961",
+        categorie: "personnalites"
+    },
+    {
+        nom: "Simon Kimbangu",
+        relation: "date_naissance",
+        objet: "12 septembre 1887",
+        categorie: "personnalites"
+    },
+    {
+        nom: "Simon Kimbangu",
+        relation: "lieu_naissance",
+        objet: "Nkamba",
+        categorie: "personnalites"
+    },
+    {
+        nom: "Denis Mukwege",
+        relation: "date_naissance",
+        objet: "1er mars 1955",
+        categorie: "personnalites"
+    },
+    {
+        nom: "Denis Mukwege",
+        relation: "profession",
+        objet: "Médecin gynécologue",
+        categorie: "personnalites"
+    },
+    {
+        nom: "Denis Mukwege",
+        relation: "distinction",
+        objet: "Prix Nobel de la paix en 2018",
+        categorie: "personnalites"
+    },
+
+
+    // ==================================
+    // 5. ECONOMIE (10)
+    // ==================================
+
+    {
+        nom: "RDC",
+        relation: "monnaie",
+        objet: "Franc congolais (CDF)",
+        categorie: "economie"
+    },
+    {
+        nom: "RDC",
+        relation: "banque_centrale",
+        objet: "Banque centrale du Congo (BCC)",
+        categorie: "economie"
+    },
+    {
+        nom: "RDC",
+        relation: "exportation_majeure",
+        objet: "Le cuivre",
+        categorie: "economie"
+    },
+    {
+        nom: "RDC",
+        relation: "exportation_miniere",
+        objet: "Le cobalt",
+        categorie: "economie"
+    },
+    {
+        nom: "RDC",
+        relation: "secteur_economique",
+        objet: "L'agriculture occupe une place importante dans l'économie",
+        categorie: "economie"
+    },
+    {
+        nom: "Matadi",
+        relation: "infrastructure_portuaire",
+        objet: "Principal port maritime de la RDC",
+        categorie: "economie"
+    },
+    {
+        nom: "Barrages d'Inga",
+        relation: "activite",
+        objet: "Production d'énergie hydroélectrique",
+        categorie: "economie"
+    },
+    {
+        nom: "Gécamines",
+        relation: "activite",
+        objet: "Entreprise minière publique congolaise",
+        categorie: "economie"
+    },
+    {
+        nom: "SNCC",
+        relation: "activite",
+        objet: "Transport ferroviaire",
+        categorie: "economie"
+    },
+    {
+        nom: "RDC",
+        relation: "commerce",
+        objet: "Le commerce formel et informel participe à l'économie",
+        categorie: "economie"
+    },
+
+
+    // ==================================
+    // 6. RESSOURCES NATURELLES (10)
+    // ==================================
+
+    {
+        nom: "RDC",
+        relation: "ressource_minerale",
+        objet: "Cuivre",
+        categorie: "ressources"
+    },
+    {
+        nom: "RDC",
+        relation: "ressource_minerale",
+        objet: "Cobalt",
+        categorie: "ressources"
+    },
+    {
+        nom: "RDC",
+        relation: "ressource_minerale",
+        objet: "Diamant",
+        categorie: "ressources"
+    },
+    {
+        nom: "RDC",
+        relation: "ressource_minerale",
+        objet: "Or",
+        categorie: "ressources"
+    },
+    {
+        nom: "RDC",
+        relation: "ressource_minerale",
+        objet: "Coltan",
+        categorie: "ressources"
+    },
+    {
+        nom: "RDC",
+        relation: "ressource_minerale",
+        objet: "Cassitérite",
+        categorie: "ressources"
+    },
+    {
+        nom: "Shinkolobwe",
+        relation: "ressource_minerale",
+        objet: "Uranium",
+        categorie: "ressources"
+    },
+    {
+        nom: "RDC",
+        relation: "ressource_forestiere",
+        objet: "Bois et produits forestiers",
+        categorie: "ressources"
+    },
+    {
+        nom: "Fleuve Congo",
+        relation: "potentiel_energetique",
+        objet: "Important potentiel hydroélectrique",
+        categorie: "ressources"
+    },
+    {
+        nom: "RDC",
+        relation: "ressource_energetique",
+        objet: "Pétrole",
+        categorie: "ressources"
+    },
+
+
+    // ==================================
+    // 7. CULTURE (10)
+    // ==================================
+
+    {
+        nom: "RDC",
+        relation: "langue_officielle",
+        objet: "Français",
+        categorie: "culture"
+    },
+    {
+        nom: "RDC",
+        relation: "langue_nationale",
+        objet: "Lingala",
+        categorie: "culture"
+    },
+    {
+        nom: "RDC",
+        relation: "langue_nationale",
+        objet: "Kikongo ya Leta",
+        categorie: "culture"
+    },
+    {
+        nom: "RDC",
+        relation: "langue_nationale",
+        objet: "Swahili",
+        categorie: "culture"
+    },
+    {
+        nom: "RDC",
+        relation: "langue_nationale",
+        objet: "Tshiluba",
+        categorie: "culture"
+    },
+    {
+        nom: "Rumba congolaise",
+        relation: "reconnaissance",
+        objet: "Inscrite au patrimoine culturel immatériel de l'UNESCO en 2021",
+        categorie: "culture"
+    },
+    {
+        nom: "Musique congolaise",
+        relation: "genre_musical",
+        objet: "La rumba et le soukous",
+        categorie: "culture"
+    },
+    {
+        nom: "Cuisine congolaise",
+        relation: "plat",
+        objet: "Fufu",
+        categorie: "culture"
+    },
+    {
+        nom: "Cuisine congolaise",
+        relation: "plat",
+        objet: "Pondu",
+        categorie: "culture"
+    },
+    {
+        nom: "RDC",
+        relation: "expression_culturelle",
+        objet: "La Sape",
+        categorie: "culture"
+    },
+
+
+    // ==================================
+    // 8. EDUCATION ET SCIENCES (10)
+    // ==================================
+
+    {
+        nom: "RDC",
+        relation: "langue_enseignement",
+        objet: "Le français est la principale langue d'enseignement",
+        categorie: "education"
+    },
+    {
+        nom: "RDC",
+        relation: "enseignement_superieur",
+        objet: "Il comprend les universités et les instituts supérieurs",
+        categorie: "education"
+    },
+    {
+        nom: "Université de Kinshasa",
+        relation: "creation",
+        objet: "1954, sous le nom d'Université Lovanium",
+        categorie: "education"
+    },
+    {
+        nom: "Université de Lubumbashi",
+        relation: "creation",
+        objet: "1981",
+        categorie: "education"
+    },
+    {
+        nom: "Université de Lubumbashi",
+        relation: "localisation",
+        objet: "Lubumbashi, Haut-Katanga",
+        categorie: "education"
+    },
+    {
+        nom: "INPP",
+        relation: "mission",
+        objet: "Formation professionnelle et perfectionnement des travailleurs",
+        categorie: "education"
+    },
+    {
+        nom: "RDC",
+        relation: "enseignement_primaire",
+        objet: "L'enseignement primaire fait partie de l'éducation de base",
+        categorie: "education"
+    },
+    {
+        nom: "RDC",
+        relation: "gratuité_enseignement",
+        objet: "La politique de gratuité de l'enseignement primaire public a été mise en œuvre à partir de 2019",
+        categorie: "education"
+    },
+    {
+        nom: "Université",
+        relation: "recherche_scientifique",
+        objet: "Production et diffusion des connaissances scientifiques",
+        categorie: "education"
+    },
+    {
+        nom: "RDC",
+        relation: "formation_technique",
+        objet: "Enseignement technique et formation professionnelle",
+        categorie: "education"
+    }
+
+];
